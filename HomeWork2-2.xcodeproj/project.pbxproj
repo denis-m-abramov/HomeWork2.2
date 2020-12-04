@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92B211C22579770D00DFC493 /* HomeWork2-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork2-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B211C22579770D00DFC493 /* HomeWork2-2 */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "HomeWork2-2"; path = "../../../../../../../../Documents/Developer/HomeWork2-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B211C52579770D00DFC493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B211C72579770D00DFC493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92B211C92579770D00DFC493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		92B211C32579770D00DFC493 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B211C22579770D00DFC493 /* HomeWork2-2.app */,
+				92B211C22579770D00DFC493 /* HomeWork2-2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "HomeWork2-2";
 			productName = "HomeWork2-2";
-			productReference = 92B211C22579770D00DFC493 /* HomeWork2-2.app */;
+			productReference = 92B211C22579770D00DFC493 /* HomeWork2-2 */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
