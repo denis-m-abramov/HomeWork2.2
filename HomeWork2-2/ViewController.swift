@@ -33,18 +33,20 @@ class ViewController: UIViewController {
 
     }
 
-    @IBAction func sliderRedAction() {
+    func changesColorScreenColor() {
         labelRedValue.text = String(Int(sliderRedValue.value))
         screenColor.backgroundColor = UIColor(red: CGFloat(sliderRedValue.value/255), green: CGFloat(sliderGreenValue.value/255), blue: CGFloat(sliderBlueValue.value/255), alpha: 1)
     }
     
+    @IBAction func sliderRedAction() {
+        changesColorScreenColor()
+    }
+    
     @IBAction func sliderGreenAction() {
-        labelGreenValue.text = String(Int(sliderGreenValue.value))
-        screenColor.backgroundColor = UIColor(red: CGFloat(sliderRedValue.value/255), green: CGFloat(sliderGreenValue.value/255), blue: CGFloat(sliderBlueValue.value/255), alpha: 1)
+        changesColorScreenColor()
     }
     @IBAction func sliderBlueAction() {
-        labelBlueValue.text = String(Int(sliderBlueValue.value))
-        screenColor.backgroundColor = UIColor(red: CGFloat(sliderRedValue.value/255), green: CGFloat(sliderGreenValue.value/255), blue: CGFloat(sliderBlueValue.value/255), alpha: 1)
+        changesColorScreenColor()
     }
 }
 
