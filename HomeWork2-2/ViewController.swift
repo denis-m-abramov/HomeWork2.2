@@ -30,6 +30,11 @@ class ViewController: UIViewController {
         sliderRedValue.minimumTrackTintColor = .red
         sliderGreenValue.minimumTrackTintColor = .green
         sliderBlueValue.minimumTrackTintColor = .blue
+        
+        // MARK: Label
+        labelRedValue.text = "0"
+        labelGreenValue.text = "0"
+        labelBlueValue.text = "0"
 
     }
 
