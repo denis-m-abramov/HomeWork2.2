@@ -35,6 +35,8 @@ class ViewController: UIViewController {
 
     func changesColorScreenColor() {
         labelRedValue.text = String(Int(sliderRedValue.value))
+        labelGreenValue.text = String(Int(sliderGreenValue.value))
+        labelBlueValue.text = String(Int(sliderBlueValue.value))
         screenColor.backgroundColor = UIColor(red: CGFloat(sliderRedValue.value/255), green: CGFloat(sliderGreenValue.value/255), blue: CGFloat(sliderBlueValue.value/255), alpha: 1)
     }
     
